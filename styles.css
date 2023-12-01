@@ -31,11 +31,9 @@ img {
     width: 100%;
 }
 
-h1,  
-h3, 
+h1,   
 .byline,
-.credit,
-h4 {
+.credit {
     /* Sets font for titles: page title, byline, credit, icon labels, and source label; */
     font-family: 'Roboto', sans-serif;
     text-align: left;
@@ -44,7 +42,7 @@ h4 {
 h2, 
 .date,
 figcaption,
-.intro,
+.text,
 .graphic-text,
 .source-container {
     /* Sets font for subhead and all body texts -- the subhead, date, image caption, the graphic descriptions, and source details; */
@@ -84,19 +82,6 @@ p {
     font-size: 1.2em;
 }
 
-h3 {
-    text-transform: uppercase;
-    font-size: 1.3em;
-    color: #4A9EC7;
-    text-align: center;
-    margin-bottom: 8px;
-}
-
-/* hr {
-    height: 4px;
-    background: gray;
-} */
-
 .container,
 .icon-container,
 .source-container {
@@ -122,25 +107,12 @@ figcaption {
 
 .credit {
     /* Sets the credit font appart from the rest of the caption; */
-    font-size: 1em;
     color:#4A9EC7;
 }
 
 .chart {
     display: block;
     margin: auto;
-}
-
-.source-container {
-    font-size: 1em;
-    color: gray;
-}
-
-h4 {
-    font-size: 1.2em;
-    color: #4A9EC7;
-    font-weight: 900;
-    margin: 10px;
 }
 
 /*********************************************************************
@@ -150,7 +122,7 @@ h4 {
 
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-    p.intro {
+    p.text {
         max-width: 65%,
     }
 }
