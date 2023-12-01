@@ -122,7 +122,8 @@ figcaption {
 
 .credit {
     /* Sets the credit font appart from the rest of the caption; */
-    color:#6382A0;
+    font-size: 1em;
+    color:#4A9EC7;
 }
 
 .chart {
