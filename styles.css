@@ -42,9 +42,7 @@ h1,
 h2, 
 .date,
 figcaption,
-.text,
-.graphic-text,
-.source-container {
+.text {
     /* Sets font for subhead and all body texts -- the subhead, date, image caption, the graphic descriptions, and source details; */
     font-family: 'Lato', sans-serif;
 }
@@ -82,9 +80,7 @@ p {
     font-size: 1.2em;
 }
 
-.container,
-.icon-container,
-.source-container {
+.container {
     width: 100%;
     margin: 0 auto;
     padding: 10px;
